@@ -25,12 +25,13 @@ Add the dependency:
 
 ```gradle
 dependencies {
-	compile 'com.github.ekainaguirrezabal:opencv-android-gradle:v3.3.0'
+	compile 'com.github.ekainaguirrezabal:opencv-android-gradle:v3.4.0'
 }
 ```
 
 ## Versions supported
 
+- OpenCV 3.4.0
 - OpenCV 3.3.0
 
 ## API levels
@@ -38,7 +39,7 @@ dependencies {
 minSdkVersion 14
 targetSdkVersion 26
 compileSdkVersion 26
-buildToolsVersion "26.0.1"
+buildToolsVersion "26.0.3"
 ```
 
 ## License
