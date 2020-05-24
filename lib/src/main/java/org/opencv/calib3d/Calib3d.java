@@ -16,6 +16,9 @@ import org.opencv.core.Size;
 import org.opencv.core.TermCriteria;
 import org.opencv.utils.Converters;
 
+// C++: class Calib3d
+//javadoc: Calib3d
+
 public class Calib3d {
 
     public static final int
@@ -391,6 +394,13 @@ public class Calib3d {
         
         return retVal;
     }
+
+
+    //
+    // C++:  bool findCirclesGrid2(Mat image, Size patternSize, Mat& centers, int flags, Ptr_FeatureDetector blobDetector, CirclesGridFinderParameters2 parameters)
+    //
+
+    // Unknown type 'Ptr_FeatureDetector' (I), skipping the function
 
 
     //

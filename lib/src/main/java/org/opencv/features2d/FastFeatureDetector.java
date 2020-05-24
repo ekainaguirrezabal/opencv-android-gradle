@@ -4,10 +4,11 @@
 //
 package org.opencv.features2d;
 
-
+import java.lang.String;
 
 // C++: class FastFeatureDetector
 //javadoc: FastFeatureDetector
+
 public class FastFeatureDetector extends Feature2D {
 
     protected FastFeatureDetector(long addr) { super(addr); }
@@ -40,6 +41,20 @@ public class FastFeatureDetector extends Feature2D {
     {
         
         FastFeatureDetector retVal = new FastFeatureDetector(create_1());
+        
+        return retVal;
+    }
+
+
+    //
+    // C++:  String getDefaultName()
+    //
+
+    //javadoc: FastFeatureDetector::getDefaultName()
+    public  String getDefaultName()
+    {
+        
+        String retVal = getDefaultName_0(nativeObj);
         
         return retVal;
     }
@@ -139,6 +154,9 @@ public class FastFeatureDetector extends Feature2D {
     // C++: static Ptr_FastFeatureDetector create(int threshold = 10, bool nonmaxSuppression = true, int type = FastFeatureDetector::TYPE_9_16)
     private static native long create_0(int threshold, boolean nonmaxSuppression, int type);
     private static native long create_1();
+
+    // C++:  String getDefaultName()
+    private static native String getDefaultName_0(long nativeObj);
 
     // C++:  bool getNonmaxSuppression()
     private static native boolean getNonmaxSuppression_0(long nativeObj);
