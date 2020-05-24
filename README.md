@@ -1,4 +1,4 @@
-# OpenCV Android Bindings for Gradle [![](https://jitpack.io/v/davidmigloz/opencv-android-gradle-repo.svg)](https://jitpack.io/#davidmigloz/opencv-android-gradle-repo)
+# OpenCV Android Bindings for Gradle [![](https://jitpack.io/v/ekainaguirrezabal/opencv-android-gradle.svg)](https://jitpack.io/#ekainaguirrezabal/opencv-android-gradle)
 
 OpenCV Android bindings packaged as Gradle dependency.
 
